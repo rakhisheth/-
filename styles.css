@@ -1,7 +1,12 @@
 body {
-    background-color: red;
+    background-color: rgb(84, 255, 78);
 }
-p {
-    color: white;
-    font-size: 40px;
+
+.top-pane {
+    height: 100px;
+    background-color: pink;
+}
+
+h3 {
+    color: yellow;
 }
