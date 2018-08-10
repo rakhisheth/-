@@ -1,12 +1,47 @@
-body {
-    background-color: rgb(84, 255, 78);
+body,
+html {
+  height: 100%;
+  width: 100%;
 }
 
 .top-pane {
-    height: 100px;
-    background-color: pink;
+  height: 60px;
+  width: 100%;
+  background-color: rgb(255, 239, 241);
+  position: fixed;
 }
 
-h3 {
-    color: yellow;
+.buttons {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.btn {
+  background-color: rgba(255, 255, 255, 0.884);
+}
+.intro {
+  background-color: rgb(185, 255, 158);
+  background: url(https://help.pandadoc.com/wp-content/uploads/2014/02/Fotolia_99922774_Subscription_Monthly_M.jpg);
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+/* .intro {
+  background-color: rgb(185, 255, 158);
+  background: url(https://help.pandadoc.com/wp-content/uploads/2014/02/Fotolia_99922774_Subscription_Monthly_M.jpg);
+  position: absolute;
+  top: 60px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+} */
+
+.project {
+  height: 200px;
+  border: 1px solid black;
+  z-index: -1;
 }
