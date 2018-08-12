@@ -6,14 +6,14 @@ html {
 
 .top-pane {
   height: 60px;
-  width: 100%;
   background-color: rgb(255, 239, 241);
+  border-bottom: 2px solid white;
   position: fixed;
+  width: 100%;
 }
 
 .buttons {
   margin: 0 auto;
-  text-align: center;
 }
 
 .btn {
@@ -21,8 +21,9 @@ html {
 }
 .intro {
   background-color: rgb(185, 255, 158);
+  /* background: url(https://images.unsplash.com/photo-1507917512726-a2b887473b13?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=439c7509d88ec0e24076710465f64e6f&auto=format&fit=crop&w=1350&q=80); */
   background: url(https://help.pandadoc.com/wp-content/uploads/2014/02/Fotolia_99922774_Subscription_Monthly_M.jpg);
-  height: 100%;
+  height: calc(100% - 60px);
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -36,31 +37,52 @@ html {
   padding-top: calc(25% + 30px);
 }
 
-.project {
-  height: 250px;
-  border: 1px solid black;
+.intro-msg > h1 {
+  color: white;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+  font-size: 4em;
+}
+.portfolio {
+  border-top: 2px solid rgb(255, 124, 49);
   z-index: -1;
-  /* left: 0; */
+}
+.section-titles {
+  text-align: center;
+  padding: 30px 0px 20px 0px;
+}
+
+.row {
+  height: 300px;
+  border-top: 2px solid pink;
+  z-index: -1;
+  padding: 30px;
+}
+
+.odd-row {
+  background-color: antiquewhite;
 }
 
 img {
   max-width: 100%;
   max-height: 100%;
-  background-color: bisque;
-  left: 0;
+  background-color: white;
+  border: 2px solid black;
+  z-index: -1;
 }
 
-.right-side {
+.portfolio-r {
   float: right;
-  left: 0;
 }
-
-.left-side {
-  float: left;
-  right: 0;
-}
-
-.portfolio {
-  padding-left: 0;
+.project-r {
   padding-right: 0;
+}
+
+.project {
+  padding-left: 0;
+}
+
+p {
+  text-align: center;
+  font: 25px Mada;
+  font-weight: strong;
 }
