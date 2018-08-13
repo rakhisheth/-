@@ -4,6 +4,9 @@ html {
   width: 100%;
   background-color: rgb(255, 239, 241);
 }
+
+/* NAVBAR */
+
 .top-pane {
   height: 60px;
   background-color: rgb(255, 239, 241);
@@ -12,9 +15,13 @@ html {
   width: 100%;
   z-index: 1030;
 }
+
 .buttons {
   margin: 0 auto;
 }
+
+/* MAIN INTRO */
+
 .intro {
   background-color: rgb(185, 255, 158);
   /* background: url(https://images.unsplash.com/photo-1507917512726-a2b887473b13?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=439c7509d88ec0e24076710465f64e6f&auto=format&fit=crop&w=1350&q=80); */
@@ -26,22 +33,27 @@ html {
   background-size: cover;
   border-bottom: 3px solid #17a2b8;
 }
+
 .intro-msg {
   margin: 0 auto;
   text-align: center;
   padding-top: calc(25% + 30px);
 }
+
 .intro-msg > h1 {
   color: white;
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
   font-size: 5em;
-  font-family: Yellowtail, cursive;
+  font-family: Tahoma;
 }
+
 .role {
   text-align: center;
   font: 25px Tahoma;
-  font-weight: strong;
 }
+
+/* PORTFOLIO */
+
 .section-titles {
   text-align: center;
   padding: 30px 0px 20px 0px;
@@ -50,31 +62,31 @@ html {
 .row {
   border-top: 3px solid #17a2b8;
   padding: 30px;
-  overflow: hidden;
+}
+
+.white-row {
+  background-color: white;
 }
 
 img {
-  max-width: 70%;
-  /* width: 70%; */
+  max-width: 100%;
   margin: 0 auto;
   background-color: white;
   border: 2px solid black;
   border-radius: 5%;
-  /* position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
 }
 
 .project-name {
-  font: 20px Tahoma;
+  font: 25px Tahoma;
   text-align: center;
 }
 
 .skills-req {
-  font: 15px Tahoma;
+  font: 18px Tahoma;
   text-align: center;
 }
+
+/* CONTACT */
 
 .contactme {
   border-top: 2px solid #17a2b8;
@@ -87,18 +99,22 @@ img {
 }
 .fab {
   font-size: 48px;
-  padding: 0px 15px 0px 15px;
+  padding: 0px 10px 0px 10px;
   color: #17a2b8;
 }
 
 @media (max-width: 767px) {
+  .intro-msg > h1 {
+    font-size: 3em;
+  }
+  .role {
+    font-size: 20 px;
+  }
   .row {
     height: 500px;
     padding: 20px;
   }
   img {
     max-width: 300px;
-  }
-  .skills-req {
   }
 }
