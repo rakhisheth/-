@@ -4,7 +4,6 @@ html {
   width: 100%;
   background-color: rgb(255, 239, 241);
 }
-
 .top-pane {
   height: 60px;
   background-color: rgb(255, 239, 241);
@@ -13,13 +12,8 @@ html {
   width: 100%;
   z-index: 1030;
 }
-
 .buttons {
   margin: 0 auto;
-}
-
-.btn {
-  background-color: rgba(255, 255, 255, 0.884);
 }
 .intro {
   background-color: rgb(185, 255, 158);
@@ -30,24 +24,23 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  z-index: -1;
+  border-bottom: 3px solid #17a2b8;
 }
-
 .intro-msg {
   margin: 0 auto;
   text-align: center;
   padding-top: calc(25% + 30px);
 }
-
 .intro-msg > h1 {
   color: white;
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
   font-size: 5em;
   font-family: Yellowtail, cursive;
 }
-
-.portfolio {
-  border-top: 2px solid #17a2b8;
+.role {
+  text-align: center;
+  font: 25px Tahoma;
+  font-weight: strong;
 }
 .section-titles {
   text-align: center;
@@ -55,44 +48,38 @@ html {
 }
 
 .row {
-  height: 300px;
-  border-top: 2px solid #17a2b8;
+  border-top: 3px solid #17a2b8;
   padding: 30px;
-}
-
-.odd-row {
-  background-color: white;
+  overflow: hidden;
 }
 
 img {
-  max-width: 100%;
-  max-height: 100%;
+  max-width: 70%;
+  /* width: 70%; */
+  margin: 0 auto;
   background-color: white;
   border: 2px solid black;
+  border-radius: 5%;
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
 }
 
-.portfolio-r {
-  float: right;
-}
-.project-r {
-  padding-right: 0;
-}
-
-.project {
-  padding-left: 0;
-}
-
-p {
+.project-name {
+  font: 20px Tahoma;
   text-align: center;
-  font: 25px Mada;
-  font-weight: strong;
+}
+
+.skills-req {
+  font: 15px Tahoma;
+  text-align: center;
 }
 
 .contactme {
   border-top: 2px solid #17a2b8;
   border-bottom: 2px solid #17a2b8;
 }
-
 .icons {
   text-align: center;
   padding: 30px 0px;
@@ -102,4 +89,16 @@ p {
   font-size: 48px;
   padding: 0px 15px 0px 15px;
   color: #17a2b8;
+}
+
+@media (max-width: 767px) {
+  .row {
+    height: 500px;
+    padding: 20px;
+  }
+  img {
+    max-width: 300px;
+  }
+  .skills-req {
+  }
 }
