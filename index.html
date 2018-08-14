@@ -21,9 +21,15 @@
 
   <div class="navbar top-pane">
     <div class="buttons">
-      <button type="button" class="btn btn-outline-info">About</button>
-      <button type="button" class="btn btn-outline-info">Portfolio</button>
-      <button type="button" class="btn btn-outline-info">Contact</button>
+      <button type="button" class="btn btn-outline-info">
+        <a href="#top">About</a>
+      </button>
+      <button type="button" class="btn btn-outline-info">
+        <a href="#portfolio">Portfolio</a>
+      </button>
+      <button type="button" class="btn btn-outline-info">
+        <a href="#contact">Contact</a>
+      </button>
     </div>
   </div>
 
@@ -39,6 +45,7 @@
   <!-- PORTFOLIO -->
 
   <section class="container-fluid text-center">
+    <div class="empty-div" id="portfolio"></div>
     <h1 class="section-titles">PORTFOLIO</h1>
 
     <div class="row white-row">
@@ -46,17 +53,21 @@
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/-Insert_image_here-.svg/2000px--Insert_image_here-.svg.png">
       </div>
       <div class="col-xs-6 col-md-8">
-        <p class="project-name">[EXAMPLE]</p>
+        <p class="project-name">RANDOM QUOTE MACHINE</p>
         <p class="skills-req">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiumdod tempor incididunt ut labore et dolore magna
           aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <i class="fab fa-html5"></i>
+        <i class="fab fa-css3-alt"></i>
       </div>
     </div>
 
     <div class="row">
       <div class="col-xs-12 col-md-8">
-        <p class="project-name">[EXAMPLE]</p>
+        <p class="project-name">JAVASCRIPT CALCULATOR</p>
         <p class="skills-req">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiumdod tempor incididunt ut labore et dolore magna
           aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <i class="fab fa-html5"></i>
+        <i class="fab fa-css3-alt"></i>
       </div>
       <div class="col-xs-6 col-md-4">
         <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/-Insert_image_here-.svg/2000px--Insert_image_here-.svg.png">
@@ -68,34 +79,53 @@
         <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/-Insert_image_here-.svg/2000px--Insert_image_here-.svg.png">
       </div>
       <div class="col-xs-6 col-md-8">
-        <p class="project-name">[EXAMPLE]</p>
+        <p class="project-name">MARKDOWN PREVIEWER</p>
         <p class="skills-req">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiumdod tempor incididunt ut labore et dolore magna
           aliqua. Ut enim ad minim veniam, quis nostrud ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <i class="fab fa-html5"></i>
+        <i class="fab fa-css3-alt"></i>
+        <i class="fab fa-js-square"></i>
       </div>
     </div>
 
     <div class="row">
       <div class="col-xs-12 col-md-8">
-        <p class="project-name">[EXAMPLE]</p>
+        <p class="project-name">POMODORO CLOCK</p>
         <p class="skills-req">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiumdod tempor incididunt ut labore et dolore magna
           aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <i class="fab fa-html5"></i>
+        <i class="fab fa-css3-alt"></i>
       </div>
       <div class="col-xs-6 col-md-4">
         <img class="img-responsive center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/-Insert_image_here-.svg/2000px--Insert_image_here-.svg.png">
+      </div>
+    </div>
+
+    <div class="row white-row">
+      <div class="col-xs-12 col-md-4">
+        <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/-Insert_image_here-.svg/2000px--Insert_image_here-.svg.png">
+      </div>
+      <div class="col-xs-6 col-md-8">
+        <p class="project-name">MARKDOWN PREVIEWER</p>
+        <p class="skills-req">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiumdod tempor incididunt ut labore et dolore magna
+          aliqua. Ut enim ad minim veniam, quis nostrud ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <i class="fab fa-html5"></i>
+        <i class="fab fa-css3-alt"></i>
+        <i class="fab fa-js-square"></i>
       </div>
     </div>
   </section>
 
   <!-- CONTACT -->
 
-  <section class="container-fluid contactme">
+  <section class="container-fluid contactme" id="contact">
     <h1 class="section-titles">CONTACT</h1>
     <div class="icons">
-      <a href="https://plus.google.com/u/0/105433314092604796637" class="fab fa-google-plus-square"></a>
-      <a href="https://www.linkedin.com/in/rakhisheth/" class="fab fa-linkedin"></a>
-      <a href="https://github.com/rakhisheth" class="fab fa-github-square"></a>
-      <a href="https://codepen.io/rakhisheth/" class="fab fa-codepen"></a>
-      <a href="https://stackoverflow.com/story/rakhisheth" class="fab fa-stack-overflow"></a>
+      <a href="https://plus.google.com/u/0/105433314092604796637" target="_blank" class="fab fa-google-plus-square"></a>
+      <a href="https://www.linkedin.com/in/rakhisheth/" target="_blank" class="fab fa-linkedin"></a>
+      <a href="https://github.com/rakhisheth" target="_blank" class="fab fa-github-square"></a>
+      <a href="https://codepen.io/rakhisheth/" target="_blank" class="fab fa-codepen"></a>
+      <a href="https://stackoverflow.com/story/rakhisheth" target="_blank" class="fab fa-stack-overflow"></a>
     </div>
   </section>
 
