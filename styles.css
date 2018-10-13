@@ -106,11 +106,6 @@ img {
   color: #17a2b8;
 }
 
-.empty-div {
-  height: 100px;
-  position: absolute;
-}
-
 @media (max-width: 767px) {
   .intro-msg > h1 {
     font-size: 3em;
