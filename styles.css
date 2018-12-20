@@ -70,7 +70,7 @@ html {
   background-color: white;
 }
 
-img {
+.project-img {
   width: 450px;
   height: 250px;
   border: 2px solid black;
@@ -102,6 +102,7 @@ img {
   border-bottom: 2px solid #17a2b8;
   padding: 0;
 }
+
 .icons {
   text-align: center;
   padding: 30px 0px;
@@ -111,6 +112,11 @@ img {
 .fab {
   font-size: 48px;
   padding: 0px 10px 0px 10px;
+  color: #17a2b8;
+}
+
+.jquery {
+  width: 48px;
   color: #17a2b8;
 }
 
