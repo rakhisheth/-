@@ -13,7 +13,7 @@ html {
   border-bottom: 2px solid white;
   position: fixed;
   width: 100%;
-  z-index: 1030;
+  z-index: 1;
 }
 
 .buttons {
@@ -23,11 +23,10 @@ html {
 /* MAIN INTRO */
 
 .intro {
-  background-color: rgb(185, 255, 158);
-  /* background: url(https://images.unsplash.com/photo-1507917512726-a2b887473b13?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=439c7509d88ec0e24076710465f64e6f&auto=format&fit=crop&w=1350&q=80); */
-  background: url(https://help.pandadoc.com/wp-content/uploads/2014/02/Fotolia_99922774_Subscription_Monthly_M.jpg);
   height: 100%;
   width: 100%;
+  background-color: rgb(185, 255, 158);
+  background-image: url("work-top4.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -36,20 +35,24 @@ html {
 
 .intro-msg {
   margin: 0 auto;
-  text-align: center;
-  padding-top: calc(25% + 30px);
+  padding-top: calc(20% + 30px);
+  width: auto;
+  font-family: Tahoma;
 }
 
 .intro-msg > h1 {
   color: white;
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
   font-size: 5em;
-  font-family: Tahoma;
 }
 
 .role {
+  font-size: 30px;
+  color: rgb(73, 21, 21);
+  text-shadow: 1px 1x 1px black;
+  -webkit-text-stroke: 0.5px white;
+  font-weight: bold;
   text-align: center;
-  font: 25px Tahoma;
 }
 
 /* PORTFOLIO */
@@ -61,29 +64,35 @@ html {
 
 .row {
   border-top: 3px solid #17a2b8;
-  padding: 40px;
+  padding: 40px 150px;
 }
 .white-row {
   background-color: white;
 }
 
 img {
-  width: 400px;
-  margin: 0 auto;
+  width: 450px;
   height: 250px;
-  background-color: white;
   border: 2px solid black;
   border-radius: 5%;
 }
 
-.project-name {
-  font: 22px Tahoma;
+.project-info {
   text-align: center;
 }
+.project-name {
+  font: 22px Tahoma;
+}
 
+#skills {
+  border-top: 2px solid #17a2b8;
+}
 .skills-req {
   font: 18px Tahoma;
-  text-align: center;
+}
+
+.viewBtn {
+  margin: 20px;
 }
 
 /* CONTACT */
@@ -96,7 +105,6 @@ img {
 .icons {
   text-align: center;
   padding: 30px 0px;
-
   border-top: 2px solid #17a2b8;
   background-color: white;
 }
